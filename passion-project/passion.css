@@ -1,0 +1,64 @@
+
+
+@font-face {
+  font-family: SimplyMono; /* set name */
+  src: url(fonts/SimplyMono-Book.ttf); /* url of the font */
+}
+
+@font-face {
+  font-family: MonoFur; /* set name */
+  src: url(fonts/monof55.ttf); /* url of the font */
+}
+
+h1 {
+    color:#d74053;
+    font-size:50px;
+    margin:30px;
+    font-family: MonoFur;
+}
+h2 {
+    color:#96c1c9;
+    font-size:20px;
+    font-family: MonoFur;
+}
+h3{
+    color:#b1b56d;
+    font-size:15px;
+    font-family: MonoFur;
+}
+h4 {
+    color:#f0b9bc;
+    font-size:20px;
+    font-family: MonoFur;
+}
+h5 {
+    color:#fa8a44;
+    font-size:12px;
+    font-family: MonoFur;
+    margin-top:-25px;
+    margin-bottom:-5px;
+}
+h6 {
+    color:#fab044;
+    font-size:12px;
+    font-family: MonoFur;
+    margin-top:-25px;
+    margin-bottom:-5px;
+}
+
+p {
+  font-size:14px;
+    font-family: MonoFur; /* use font */
+}
+li {
+    font-size:14px;
+    font-family: MonoFur;
+}
+a{
+    color:#d74053;
+    font-size:18px;
+    font-family:MonoFur;
+}
+.little {
+    font-size:16px;
+}

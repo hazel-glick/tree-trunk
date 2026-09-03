@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <head>
+<title>specificity</title>
+<link rel="stylesheet" href="../assets/specificity.css">
+<style>
+    header {
+        background-color: rgb(137, 177, 96);
+    }
+    </style>
+    </head>
+
+    <body>
+
+<h1>specificity</h1>
+
+<header style="background:lightcoral">
+stylesheet specificity <br>
+external < embedded < inline
+</header>
+
+<main class="class" id="id">
+identifier specificity<br>
+default tag < class < id
+</main>
+
+<footer>
+location specificity<br>
+higher < lower
+</footer>
+
+<br>
+<a href="../index.html">return me!</a>
+
+    </body>
+    </html>

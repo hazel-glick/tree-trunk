@@ -1,0 +1,33 @@
+body {
+    background-color:azure;
+}
+/* external style are the least specific */
+header {
+    background-color:orange;
+    margin:20px;
+    padding:20px;
+}
+
+main {
+    background:green;
+    margin:20px;
+    padding:20px;
+}
+/* classes are more specific than default tags, but less specific than id's */
+.class {
+    background:blue
+}
+/* id's are the most specific */
+#id {
+    background:lightskyblue
+}
+/* rules higher on style sheet or less specific than rules lower */
+footer {
+    background:pink;
+    margin:20px;
+    padding:20px;
+}
+/* rules lower are more specific */
+footer {
+    background:lightseagreen;
+}

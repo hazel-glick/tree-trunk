@@ -1,0 +1,28 @@
+body {
+    background-color:rgba(228, 217, 201, 0.509);
+    color:rgb(82, 75, 53);
+    font-size:15px;
+    margin:20px
+}
+
+p {
+    color:olive;
+    /* the border shorthand property expects 3 values for the border-width, border-style, and border-color */
+    background-color:beige;
+    border:2px dotted rgb(196, 167, 130);
+    padding:10px;
+    /* margin is external spacing, padding is internal */
+
+}
+
+.banner {
+    background-color:rgb(171, 196, 131);
+}
+.new{
+    color:rgb(67, 63, 40);
+    text-align:center;
+}
+
+img{
+    max-width:100%
+}
