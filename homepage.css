@@ -1,1 +1,51 @@
-body {background-color:blanchedalmond}
+@font-face {
+  font-family: tengo; /* set name */
+  src: url(fonts/Tengoku.ttf); /* url of the font */
+}
+
+@font-face {
+  font-family: monof; /* set name */
+  src: url(fonts/monof55.ttf); /* url of the font */
+}
+
+@font-face {
+  font-family: w9; /* set name */
+  src: url(fonts/W95F.otf); /* url of the font */}
+
+  @font-face {
+  font-family: dotm; /* set name */
+  src: url(fonts/DOTMBold.TTF); /* url of the font */}
+
+  @font-face {
+  font-family: dotm; /* set name */
+  src: url(fonts/3x3dotsb.ttf); /* url of the font */}
+
+  @font-face {
+  font-family: f25; /* set name */
+  src: url(fonts/F25_Bank_Printer.ttf); }
+
+p {
+  font-size:14px;
+    font-family: f25; /* use font */
+}
+
+a {
+    font-size:14px;
+    font-family: f25; /* use font */
+    color: black;
+padding: 0 10px
+}
+h1 {
+    font-size:30px;
+    font-family: f25; /* use font */
+    color: black;
+     margin-top:-4px;
+    margin-bottom:-4px;
+}
+h2 {
+   font-size:14px;
+    font-family: f25; /* use font */
+    color: black;
+    margin-top:-4px;
+    margin-bottom:-4px; 
+}
