@@ -30,7 +30,7 @@ p {
 }
 
 a {
-    font-size:14px;
+    font-size:13px;
     font-family: f25; /* use font */
     color: black;
 padding: 0 10px
@@ -49,3 +49,10 @@ h2 {
     margin-top:-4px;
     margin-bottom:-4px; 
 }
+
+ pre {
+   font-size:13px;
+    font-family: f25; /* use font */
+    margin:-3px;
+
+  }

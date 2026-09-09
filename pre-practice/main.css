@@ -1,0 +1,31 @@
+*{
+    box-sizing:border-box;
+}
+
+@font-face {
+  font-family: f25; /* set name */
+  src: url(../fonts/F25_Bank_Printer.ttf); }
+
+  @font-face {
+  font-family: monof; /* set name */
+  src: url(../fonts/monof55.ttf); /* url of the font */
+}
+
+  pre {
+   font-size:14px;
+    font-family: f25; /* use font */
+    margin:-3px;
+
+  }
+
+
+  p {
+    font-size:14px;
+    font-family: monof;
+    color:blue
+  }
+a {
+  color:black;
+  padding-left: 5px;
+  padding-right: 5px;
+}
