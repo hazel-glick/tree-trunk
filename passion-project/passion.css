@@ -79,8 +79,9 @@ body {
 }
 
 img {
-    height:fit-content;
+    height:65%;
     width: 65%;
+    min-height: 200px;
     min-width: 200px;
     
 }
