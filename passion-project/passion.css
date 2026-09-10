@@ -56,9 +56,31 @@ li {
 }
 a{
     color:#d74053;
-    font-size:18px;
+    font-size:16px;
     font-family:MonoFur;
+
 }
 .little {
     font-size:16px;
+}
+
+body {
+    padding-left: 15%;
+    padding-right: 20%;
+    max-width: 60%;
+    flex-wrap: wrap;
+}
+
+.imageflex { display: flex; }
+.imageflexcontent { margin-left: 20px; margin-top: 0; }
+.text {
+  display: inline-block;
+  vertical-align: top;
+}
+
+img {
+    height:fit-content;
+    width: 65%;
+    min-width: 200px;
+    
 }
