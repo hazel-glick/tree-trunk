@@ -49,13 +49,14 @@ h6 {
 p {
   font-size:14px;
     font-family: MonoFur; /* use font */
+    /* max-width: 100px; */
 }
 li {
     font-size:14px;
     font-family: MonoFur;
 }
 a{
-    color:#d74053;
+    /* color:#96c1c9; */
     font-size:16px;
     font-family:MonoFur;
 
@@ -69,19 +70,22 @@ body {
     padding-right: 20%;
     max-width: 60%;
     flex-wrap: wrap;
+    background-image: url(clean-images/paper-bg.png);
 }
 
 .imageflex { display: flex; }
-.imageflexcontent { margin-left: 20px; margin-top: 0; }
+.imageflexcontent { margin-left: 20px; margin-top: 0; max-width: 200px;}
 .text {
   display: inline-block;
   vertical-align: top;
+
+  max-width: 20px;
 }
 
 img {
-    height:65%;
-    width: 65%;
-    min-height: 200px;
-    min-width: 200px;
+    height:200px;
+    width: 200px;
+    /* min-height: 200px;
+    min-width: 200px; */
     
 }
