@@ -1,0 +1,24 @@
+body {
+ /* background-image: url("clean-images/classroom.jpg"); */
+ background-color: #fffbfb;
+ /* background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 75%; */
+}
+
+.block {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: lightgray;
+}
+
+.container {
+  text-align: center;
+}
+
+.block img {
+ width: 100px;
+ height: 100px;
+}
