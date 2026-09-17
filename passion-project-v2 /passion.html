@@ -11,31 +11,71 @@
     </head>
 
     <body>
+       
+<h1>I LOVE STATIONERY!!!<h1>
+<h2>sta-tio-nery</h2>
+<h2>:materials (such as paper, pens, and ink)<br>
+for writing or typing</h2><br>
+<h1>my favorite time of the year<br>
+was always back to school shopping<br>
+because i just loved picking out my...<br><br>
+pens<br>
+pencils<br>
+notebooks<br>
+sticky notes<br><br>
+and everything else.</h1>
+<h2>for the sake of<br><br>
+MONEY<br><br>
+i can not buy every piece of stationery my<br><br>
+HEART<br><br>
+desires<br>
+but i can think about them...</h2>
 
-<!--
-Source - https://stackoverflow.com/a/60521326
-Posted by Titulum
-Retrieved 2026-09-15, License - CC BY-SA 4.0
--->
+        <div id="demo"></div>
+
 
 <div class="container">
-  <div class="block">
-    <!-- <h3>Title 1</h3> -->
-     <br>
-    <img src="clean-images/midliner.png">
-    <!-- <p>Some text</p> -->
-  </div>
-  <div class="block">
-    <h3>Title 2</h3>
-    <img src="clean-images/pentel.png">
-    <p>Some text</p>
-  </div>
-  <div class="block">
-   <h3>Title 2</h3>
-    <img src="clean-images/mini-note.png">
-    <p>Some text</p>
-  </div>
+  <div><button id="left" onclick="midliner()"><img src="clean-images/midliner.png"></button></div>
+  
+  <div><button onclick="pentel()"><img src="clean-images/pentel.png"></button></div>
+  
+  <div><button onclick="mini()"><img src="clean-images/mini-note.png"></button></div>
+  
+  <div><button onclick="radar()"><img src="clean-images/sun-radar.png"></button></div>
+
+  <div ><button onclick="uniball()"><img src="clean-images/uni-ball.png"></button></div>
+
+  <div ><button id="right" onclick="landscape()"><img src="clean-images/landscape.png"></button></div>
 </div>
+
+
+
+<script>
+
+function midliner() {
+  document.getElementById("demo").innerHTML = "<p>MIDLINER PENS: i have been getting these since i was in middle school. they're perfect for highlighting, but for drawing and sketcing too. this particular set here has some great colors i'f love to have.</p>";
+}
+
+function pentel() {
+  document.getElementById("demo").innerHTML = "<p>PENTEL M8 MECHANICAL PENCIL: i've always been a big fan of mechanical pencils, especially using them to sketch. this awesome pencil can carry 8 different colors of pencil leads at once. i want it so baddd.</p>";
+}
+
+function mini() {
+  document.getElementById("demo").innerHTML = "<p>CHOCOLOG MINI NOTEBOOK KEYCHAIN: i've been wanting a little notebook to carry around to write and doodle in. this would be convenient because i wouldnt need to keep it in a bag. i could also see this being too small. if it wasn't $20 then i'd easily give it a try. it's very cute.</p>";
+}
+
+function radar() {
+  document.getElementById("demo").innerHTML = "<p>SUN RADAR ERASERS: i can always appreciate a nice eraser, and these ones change color in the sunlight. they also look like candy.</p>";
+}
+
+function uniball() {
+  document.getElementById("demo").innerHTML = "<p>UNI-BALL ONE P GEL INK PENS: these colors are nice and the wideness of the barrel probably gives these pens a more comfortable grip. i also feel like they'd make a nice 'click' sound.</p>";
+}
+
+function landscape() {
+  document.getElementById("demo").innerHTML = "<p>LANDSCAPE SKETCHBOOK: i've mostly always used portrait ratio sketchbooks, so i think it would be neat to sketch on landscape spreads and try new compositions. this sketchbook also has such a pretty cover.</p>";
+}
+</script>
 
     </body>
 </html>

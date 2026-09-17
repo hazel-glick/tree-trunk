@@ -1,24 +1,101 @@
+@font-face {
+  font-family: SimplyMono; /* set name */
+  src: url(../fonts/SimplyMono-Book.ttf); /* url of the font */
+}
+
 body {
- /* background-image: url("clean-images/classroom.jpg"); */
+ background-image: url("clean-images/myroom.png");
  background-color: #fffbfb;
- /* background-repeat: no-repeat;
+ background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-size: 75%; */
+  background-size: 700px;
+  
 }
 
-.block {
-  display: inline-block;
-  width: 100px;
-  height: 100px;
-  background-color: lightgray;
-}
+
 
 .container {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  /* height: 300px; */
+  /* background-color: rgb(64, 87, 110); */
+  align-items: flex-end;
+  
+  
 }
 
-.block img {
- width: 100px;
- height: 100px;
+.container div {
+  /* background-color: #ffffff; */
+  margin: -1px;
+  padding: 0px;
+  font-size: 30px;
+  height: 150px;
+  
+
+}
+
+button {
+background-color: rgba(245, 245, 245, 0.763);
+width: 100px;
+height: 100px;
+/* margin: 0px */
+padding: 0px;
+cursor:pointer;
+border: 2px black solid;
+
+}
+
+#left {
+border-radius: 15px 0px 0px 15px;
+}
+
+#right {
+border-radius: 0px 15px 15px 0px;
+}
+
+button:hover {
+  background-color: whitesmoke;
+}
+
+img {
+  width:80px;
+  height: auto;
+}
+
+#demo {
+width:590px;
+    text-align:center;
+    margin: auto;
+height: 60px;
+/* margin-top: 550px; */
+margin-bottom: 20px;
+}
+
+
+p {
+  font-size: 12px;
+  background-color: rgba(255, 255, 255, 0.742);
+  padding: 5px;
+  color: black;
+  border: black 2px dotted;
+  border-radius: 15px;
+  font-family: SimplyMono;
+}
+
+h1 {
+/* width: 25%; */
+font-size: 14px;
+color:black;
+font-family: SimplyMono;
+}
+
+h2 {
+/* margin-left: 75%; */
+/* width:25%; */
+text-align: right;
+font-size: 14px;
+color:black;
+font-family: SimplyMono;
+
 }
