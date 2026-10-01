@@ -1,0 +1,210 @@
+*{
+    box-sizing:border-box;
+}
+
+img {
+    max-height:90%;
+    max-width:90%
+}
+
+@font-face {
+  font-family: typo; /* set name */
+  src: url(MonospaceTypewriter.ttf); /* url of the font */
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p{
+color: black;
+font-family:typo;
+font-size: 12px;
+/* border: black solid .5px;
+border-radius: 15px;
+padding:5px; */
+}
+
+div{
+    font-family: typo;
+    font-size:12px;
+}
+
+body{
+max-width: 80%;
+/* background-color: aquamarine; */
+margin: 0 auto;
+}
+
+.container {
+    /* background-color:rgb(180, 227, 183); */
+    padding:50px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+
+.lobby {
+/* background-color: rgb(37, 87, 87); */
+border: black solid 1px;
+border-radius: 15px;
+height:400px;
+width:600px;
+display: flex;
+gap: 10px;
+align-items: center;
+justify-content: center;
+}
+
+.ele-door{
+border: black solid 1px;
+border-radius: 15px;
+height:30px;
+width:300px;
+display: flex;
+gap: 10px;
+align-items: center;
+justify-content: center;
+margin: 10px;
+}
+
+.ele-door:hover{
+    background-color: lightgrey;
+}
+
+.elevator {
+border: black solid 1px;
+border-radius: 15px;
+height:600px;
+width:300px;
+display:flex;
+flex-direction: column;
+gap: 10px;
+align-items: center;
+justify-content: center;
+}
+
+.floors {
+border: black solid 1px;
+border-radius: 15px;
+height:200px;
+width:100px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap:15px;
+}
+
+.ele-number {
+border: black solid 1px;
+border-radius: 15px;
+height:30px;
+width:80px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.ele-number:hover {
+    background:lightgrey
+}
+
+.hallway {
+border: black solid 1px;
+border-radius: 15px;
+height:300px;
+width:800px;
+display: flex;
+gap: 10px;
+align-items: center;
+justify-content: center;
+}
+
+.door {
+height:260px;
+width:160px;
+display: flex;
+gap: 10px;
+align-items: center;
+justify-content: center;
+margin:40px;
+padding: 10px 2px 12px 2px;
+flex-direction:column
+}
+
+.door:hover {
+border: black solid 1px;
+border-radius: 20px;
+}
+
+.room {
+/* border: black solid 0.5px; */
+/* border-radius: 15px; */
+height:600px;
+width:500px;
+display: flex;
+gap: 10px;
+align-items: center;
+justify-content: center;
+flex-direction:column;
+}
+
+.hall-door{
+border: black solid 1px;
+border-radius: 15px;
+height:30px;
+width:300px;
+display: flex;
+gap: 10px;
+align-items: center;
+justify-content: center;
+margin: 10px;
+text-decoration: none;
+}
+
+.hall-door:hover{
+    background-color:lightgray;
+}
+
+.text-box {
+height:70px;
+width:400px;
+display: flex;
+gap: 10px;
+align-items: center;
+justify-content: center;
+/* margin: 10px; */
+/* background: red */
+}
+
+
+#demo {
+width:400px;
+text-align:center;
+height: 70px;
+/* background: olivedrab; */
+}
+
+.speech {
+border: black solid 1px;
+border-radius: 15px;
+height:30px;
+width:40px;
+display: flex;
+gap: 10px;
+align-items: center;
+justify-content: center;
+margin: 10px;
+cursor: pointer;
+}
+
+.speech:hover {
+    background-color:lightgray;
+}

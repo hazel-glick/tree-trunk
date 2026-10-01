@@ -1,0 +1,40 @@
+*{
+    box-sizing:border-box;
+}
+
+img {
+    max-width:100%;
+}
+
+.box{
+    background: lightskyblue;
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    margin: 10px 0;
+    /* using 'absolute' for margin will center an item on the screen horizontally */
+}
+
+.relative {
+    background-color: burlywood;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    bottom: 200px;
+    right: 200px;
+    /* when top and bottom are applied, the top takes priority and bottom is disregarded. left is prioritized over right */
+}
+
+.fixed {
+    background-color: darkseagreen;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+}
+
+.sticky {
+    background-color: aliceblue;
+    position: sticky;
+    top: 0;
+}
