@@ -1,0 +1,147 @@
+*{
+    box-sizing:border-box;
+}
+
+img {
+    max-width:100%;
+}
+
+body{margin:0px}
+
+.box{
+    background-color: lightskyblue;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name:test;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function:ease-in-out;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+
+    /* animation:test 5s 2s infinite ease-in-out alternate both;
+    this is how to put all properties on one line, order doesn't matter, except durtaion must come before delay */
+}
+
+@keyframes test{
+    0%{
+background-color: coral;
+top:0
+    }
+    50%{
+background-color: deeppink;
+    }
+    100%{
+background-color: crimson;
+top:200px
+    }
+}
+
+.container{
+    background-color:antiquewhite;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position:relative;
+    overflow: hidden;
+}
+
+.circle{
+    background-color: cadetblue;
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    animation: pulse 3s infinite alternate;
+}
+
+@keyframes pulse {
+
+0%{
+background-color: cadetblue;
+scale:0.75
+}
+100%{
+background-color: darkseagreen;
+scale:1.25
+}
+}
+
+.square{
+    background-color: cadetblue;
+    width: 100px;
+    height:100px;
+    animation: spin 2s infinite linear;
+}
+
+@keyframes spin {
+0%{
+    rotate: 0;
+}
+100%{
+    rotate:360deg;
+}
+}
+
+.mover{
+    background-color: cadetblue;
+    width:150px;
+    height:30px;
+    border-radius: 15px 15px 0 0;
+    position:absolute;
+    bottom:0;
+    left:0;
+    animation:
+        move 4s infinite linear, grow 2s infinite alternate;
+    
+}
+
+@keyframes move {
+0% {
+    left:-150px
+}
+100% {
+  left:100%
+}
+}
+
+@keyframes grow {
+0%{
+scale:1;
+}
+100%{
+scale:1.5
+}
+}
+
+.changer {
+    background-color: cadetblue;
+    width:100px;
+    height:100px;
+    transition:
+    background 2s ease-in-out, border-radius 1s ease-in-out, scale 1s ease-in-out,
+    rotate 2s ease-in-out;
+}
+
+.changer:hover{
+background: lightseagreen;
+cursor: pointer;
+border-radius: 50%;
+rotate: 360deg;
+}
+
+.changer:active{
+    background-color: darkseagreen;
+    cursor:pointer;
+    scale:0.9;
+}
+
+/* .overflow{
+    border:1px solid;
+    width:300px;
+    height:200px;
+    background-color: bisque;
+    overflow:hidden;
+} */
