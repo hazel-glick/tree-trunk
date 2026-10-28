@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta charset="UTF-8">
+
+<title>control b</title>
+
+<link rel="stylesheet" href="main-b.css">
+    </head>
+
+    <body>
+<div class="container">
+
+<div class="cell-a">
+<div class="holder-a">
+<p class="pa">pondering things?</p>
+<p class="pa">think of a (yes-no) question...</p>
+<div class="go" onclick="submit()">seek - the - answer</div>
+</div>
+</div>
+
+<div class="cell-b">
+<div class="holder-b">
+<p class="pb">the answer is:</p>
+<div class="answer"><p id="result" class="pc"></p></div>
+<p class="pb">satisfied? or...</p>
+<div class="back" onclick="reset()">more - to - ask - ?</div>
+</div>
+</div>
+
+</div>
+
+<script>
+
+    var input = document.querySelector(".cell-a");
+
+    var output = document.querySelector(".cell-b");
+
+    var text = [
+  "' yes '",
+  "' no '",
+  "' maybe '",
+  "' definetly '",
+  "' don't know '",
+  "' ask again '",
+  "' it's up to fate '",
+  "' it's possible '",
+  "' doubt it '",
+  "' no idea '",
+  "' bruh '",
+  "' ? '",
+  "' do pigs fly? '",
+  "' totally '",
+  "' indeed '",
+  "' unlikely '",
+  "' likely '",
+  "' very likely '",
+  "' absolutely '",
+  "' nope '",
+  "' potentially '",
+  "' negative '",
+  "' not really '",
+  "' well, no '",
+  "' well, yes '",
+  "' ya '",
+  "' nah '",
+  "' no way '",
+  "' yup '",
+  "' sure '",
+  "' you bet '",
+  "' certainly '",
+  "' of course '",
+  "' affirmative '",
+  "' not sure '",
+  "' uncertain '",
+  "' ? '",
+  "' nay '",
+
+];
+
+    function submit(){
+        console. log("ask away");
+
+        input.classList.add("up");
+        input.classList.remove("down");
+
+        output.classList.add("rise");
+        output.classList.remove("sink");
+
+        document.body.classList.add("shift");
+        document.body.classList.remove("unshift");
+
+        document.getElementById("result").innerHTML = text[Math.floor(Math.random() * text.length)];
+    }
+
+    function reset(){
+        input.classList.add("down");
+        input.classList.remove("up");
+
+        output.classList.add("sink");
+        output.classList.remove("rise");
+
+        document.body.classList.add("unshift");
+        document.body.classList.remove("shift");
+    }
+         
+     
+</script>
+    </body>
+</html>

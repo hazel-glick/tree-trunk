@@ -1,0 +1,105 @@
+*{
+    box-sizing:border-box;
+}
+
+img {
+    max-width:100%;
+}
+
+body{
+/* max-width: 80%; */
+background-color: aquamarine;
+margin: 0 auto;
+}
+
+.container {
+    background-color:rgb(180, 227, 183);
+    /* padding:50px; */
+    height: 100vh;
+    /* width:100%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: black;
+}
+
+.cell {
+/* background-color: rgb(37, 87, 87); */
+border: black solid;
+border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAADkElEQVR4AeyY224kMQhEZ/f//3nXRFEEp5ExoucSqUbtxGUKcJ+MeMjfx+d9/q0r+bVkeHzM9iH4bvGJQN/NZNRfQEf4rskCemUyOsmA2lzyiw18zPaMT/WfVcAv6+GXj9l+2W99fC/bs7id+RXiGdBgkOgRENAer9ItoCWiniEDanPJr6qinye2r/yMW45fjFfa59q+8jNuOX4xTu3Z2D7EM6DBINEjIKA9XqVbQEtEPUMG1M+TbG9zY7d6N3g8WIs9H/gwznzYS8l8avajDg0yoMEg0SMgoD1epVtAS0Q9QwaUM6SquJ0pSXLlr/pX8ao+r9T1b/tnQNlQukFAQBuwTqwCekKp4TkBup0ZqxfjnEnUlX+VbD3d+pWfzXlfxoM+ARoSJPYEBHTPpx0V0DayfcIrgNoM8uvuGeZr275bf0+oGX0F0OaVfrddQG/++wnoBwKtZlYVv/mVyv+v2pz1i/cb3Uff0BG+a7KAXpmMTgR0hO+afAK0mjF+Htmefjvz63qL55743rbv3o/+7W1PgG4LKBgJCGjkMVYCOkYYCxjQakbY3PGr648dz9WznP5dbM8+fD/z+LX1G1AapAcEBHQAL0sV0IzK4MyA+vlge84QarZjnJr+d2vej5r3Y5zamP0sA8oC0gMCAjqAl6UKaEZlcGZAtzNh1f6ZD9/79Ss8jFMH8wcI3o+aV2ScOvAzoCwgPSAgoAN4WaqAZlQGZwaUM4HlwoxYwa5/pbzsOWnE92EO36/lN6AsKD0gIKADeFmqgGZUBmcnQDlT2I4zhn7Gmf9szf7d+9G/ve8J0G0BBSMBAY08xkpAxwhjgTuAcsZMZ1a8YV91+/P+/Y4u4w6grpy2Anrzd0BAfyHQ7kzjKzK/inMmVvmsN9L6ho7wXZMF9MpkdCKgI3zX5BOg1QxinDOMuvJfb7k/6dav/OzG+zIe9AnQkCCxJyCgez7tqIC2ke0TMqCtmbHKcyato+1T+av+Vbyqz8t1/dv+GVA2lG4QENAGrBOrgJ5QangyoJwp1Jwh1I32X1bms9+Xyf1gnPnOerRlPjX7mfYrNMmABoNEj4CA9niVbgEtEfUMGVDOkKqinye2r/yMW45fjFfa59q+8jNuOX4xTr3lkwFlAekGAQFtwDqxCugJpYYnA+rnie1Zzs78YnyqOaN8L9szPu3HfOvhVyueAWUB6QYBAW3AOrEK6Amlhuc/AAAA///C7RumAAAABklEQVQDACGwYLDFLoUOAAAAAElFTkSuQmCC") 28 /  28px / 0 round;
+border-width:  28px;
+border-style:  solid;
+height:80%;
+width:80%;
+display: flex;
+gap: 20px;
+align-items: center;
+justify-content: center;
+flex-direction:column;
+}
+
+
+.question {
+    width:50%;
+    height:10%;
+    border: none;
+    background: transparent;
+  border-bottom: 1px solid black;
+
+  transition: visibility 3s, opacity 3s;
+  /* transition: display 3s; */
+}
+
+
+button {
+    border: black, 1px;
+    border-radius: 5px;
+    background: transparent;
+}
+
+.ask {
+    transition: visibility .3s, opacity .3s;
+    /* transition: display 3s; */
+}
+
+.prompts {
+transition: visibility .3s, opacity .3s;
+}
+
+.answer {
+display: flex;
+/* gap: 20px; */
+align-items: center;
+justify-content: center;
+flex-direction:column;
+width:80%;
+height:10%;
+/* background-color: blueviolet; */
+visibility: hidden;
+opacity: 0%;
+/* display: none; */
+transition: visibility 3s, opacity 3s;
+
+ 
+    /* transition: display 3s; */
+}
+
+.again {
+    visibility: hidden;
+    opacity: 0%;
+    /* display: none; */
+    transition:visibility 3s, opacity 3s;
+
+}
+
+.appear {
+opacity: 100%;
+visibility: visible;
+
+}
+
+.disappear {
+opacity: 0%;
+visibility: hidden;
+}

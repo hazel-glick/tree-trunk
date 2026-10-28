@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta charset="UTF-8">
+
+<title>control</title>
+
+<link rel="stylesheet" href="main.css">
+    </head>
+
+    <body>
+
+<div class="container">
+
+    <div class="cell">
+
+        <p class="prompts">ask me a yes or no question...</p>
+
+    <input class="question" type="text">
+    
+
+    <button class="ask" onclick="submit()">ask</button>
+
+
+
+    <div class="answer"><p id="result"></p></div>
+
+    <button class="again" onclick="reset();">ask another question</button>
+
+    </div>
+
+</div>
+<script>
+
+location.reload();
+
+var answer = document.querySelector(".answer");
+
+var input = document.querySelector(".question");
+
+var ask = document.querySelector(".ask");
+
+var again = document.querySelector(".again");
+
+var prompts = document.querySelector(".prompts");
+
+var text = [
+  "yes",
+  "no",
+  "maybe",
+  "definietly",
+  "idk"
+];
+
+const refreshBtn = document.getElementById("btnRefresh");
+
+    function submit(){
+            console. log("ask away");
+
+  input.classList.toggle("disappear");
+
+  ask.classList.toggle("disappear");
+
+  prompts.classList.toggle("disappear");
+
+ answer.classList.toggle("appear");
+             
+  document.getElementById("result").innerHTML = text[Math.floor(Math.random() * text.length)];
+
+  again.classList.toggle("appear");
+    }
+
+  function reset(){
+            console. log("once more");
+
+input.classList.toggle("appear");
+
+ask.classList.toggle("appear");
+
+answer.classList.toggle("disappear");
+
+again.classList.toggle("disappear")
+}
+
+</script>
+    </body>
+</html>
