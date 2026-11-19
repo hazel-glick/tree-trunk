@@ -1,0 +1,270 @@
+*{
+    box-sizing:border-box;
+}
+
+img {
+    max-width:100%;
+}
+
+body{margin:0px}
+
+.container{
+background-color:#2e0c0c;
+  height: 100vh;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  align-content:center;
+  /* position: relative; */
+  /* overflow: hidden; */
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+    flex-direction:row;
+}
+
+/* .pod{
+  height: 300px;
+  width: 100px;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  align-content:center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+    flex-direction:column;
+} */
+
+.cell{
+    display: flex;
+    /* background-color: aquamarine; */
+    margin:5px;
+    padding:15px;
+    /* width: 80px; */
+    height:40px;
+    justify-content:center;
+    align-items:center;
+    font-size: 15px;
+    color: #ba221e;
+}
+
+
+
+@keyframes fade{
+    0%{
+        opacity:100%;
+        scale:1;
+        color:#ba221e;
+    }
+    50%{
+        opacity: 100%;
+        scale:2;
+        color: #f2e7d4;
+    }
+    100%{
+        opacity: 0%;
+        scale:1.75;
+        color: #ba221e;
+    }
+}
+
+.x103{
+    animation: fade 1.2s 0.7s 1 both;
+    /* like */
+}
+
+.x40{
+    animation: fade 1.2s 1s 1 both;
+    /* do */
+}
+
+.x233{
+    animation: fade 1.2s 1.3s 1 both;
+    /* you */
+}
+
+.x227{
+    animation: fade 1.2s 1.4s 1 both;
+    /* want */
+}
+
+.x90{
+    animation: fade 1.2s 1.6s 1 both;
+    /* it */
+}
+
+.x84{
+    animation: fade 1.2s 1.8s 1 both;
+    /* in */
+}
+
+.x206{
+    animation: fade 1.2s 2.1s 1 both;
+    /* the */
+}
+
+.x21{
+    animation: fade 2s 2.4s 1 both;
+    /* back */
+}
+
+.x165{
+    animation: fade 2.7s 2.8s 1 both;
+    /* seat */
+}
+
+.x1{
+    animation: fade 2.5s 3s 1 both;
+    /* ? */
+}
+
+.x148{
+    animation: fade 1.2s 6.1s 1 both;
+    /* or */
+}
+
+.x117{
+    animation: fade 1.2s 6.4s 1 both;
+    /* maybe */
+}
+
+.x143{
+    animation: fade 1.2s 6.8s 1 both;
+    /* on */
+}
+
+.x193{
+    animation: fade 1.2s 7.1s 1 both;
+    /* the */
+}
+
+.x54{
+    animation: fade 2.7s 7.3s 1 both;
+    /* floor */
+}
+
+.x8{
+    animation: fade 2.5s 7.7s 1 both;
+    /* ? */
+}
+
+.x36{
+    animation: fade 1.3s 11.3s 1 both;
+    /* come */
+}
+
+.x153{
+    animation: fade 1.2s 11.6s 1 both;
+    /* over */
+}
+
+.x13{
+    animation: fade 1.2s 12.3s 1 both;
+    /* and */
+}
+
+.x108{
+    animation: fade 2s 13s 1 both;
+    /* love */
+}
+
+.x126{
+    animation: fade 2.7s 13.5s 1 both;
+    /* me */
+}
+
+.x67{
+    animation: fade 1.5s 16.6s 1 both;
+    /* i */
+}
+
+.x97{
+    animation: fade 1.2s 17.1s 1 both;
+    /* just */
+}
+
+.x220{
+    animation: fade 1.2s 17.5s 1 both;
+    /* want */
+}
+
+.x174{
+    animation: fade 1.2s 17.7s 1 both;
+    /* some */
+}
+
+.x135{
+    animation: fade 2.7s 18s 1 both;
+    /* more */
+}
+
+.x184{
+    animation: fade 2.7s 22.6s 1 both;
+    /* some */
+}
+
+.x128{
+    animation: fade 2.7s 23s 1 both;
+    /* more */
+}
+
+.x140{
+    animation: fade 1.2s 23.7s 1 both;
+    /* never */
+}
+
+.x210{
+    animation: fade 1.2s 24.4s 1 both;
+    /* thought */
+}
+
+.x75{
+    animation: fade 1.2s 24.7s 1 both;
+    /* i'd */
+}
+
+.x26{
+    animation: fade 1.2s 25.3s 1 both;
+    /* be */
+}
+
+.x31{
+    animation: fade 1.8s 25.8s 1 both;
+    /* begging */
+}
+
+.x239{
+    animation: fade 1.4s 26.6s 1 both;
+    /* you */
+}
+
+.x215{
+    animation: fade 1.4s 27.4s 1 both;
+    /* to */
+}
+
+.x186{
+    animation: fade 1.4s 28.2s 1 both;
+    /* spend */
+}
+
+.x175{
+    animation: fade 1.4s 29s 1 both;
+    /* some */
+}
+
+.x213{
+    animation: fade 1.4s 29.8s 1 both;
+    /* time */
+}
+
+.x232{
+    animation: fade 1.4s 30.6s 1 both;
+    /* with */
+}
+
+.x120{
+    animation: fade 1.4s 31.4s 1 both;
+    /* me */
+}
